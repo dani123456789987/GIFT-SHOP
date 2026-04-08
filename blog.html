@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cake Shop</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/eedbcd0c96.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="header">
+        <div class="logo">
+          <a href="#" onclick="window.location.href='home.html';">
+            <img src="imgs/logoimage.png" alt="" class="imglogo" />
+          </a>
+        </div>
+  
+        <div>
+          <ul id="navbar">
+            <li>
+              <a href="home.html">Home</a>
+            </li>
+  
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+  
+            <li>
+              <a href="shop.html">Shop</a>
+            </li>
+  
+            <li>
+              <a href="blog.html" class="active">Blog</a>
+            </li>
+  
+            <li>
+              <a href="about.html">About</a>
+            </li>
+  
+            <div class="js-shop-quantity pro-quantity"></div>
+            <li>
+              <i
+                id="shopbag"
+                class="fa-sharp fa-solid fa-cart-shopping js-cart-click"
+              ></i>
+            </li>
+            <a href="#" id="close" onclick="remove()"
+              ><i class="fa-solid fa-xmark"></i
+            ></a>
+          </ul>
+        </div>
+        <div id="mobile">
+          <div class="js-shop-quantity pro-quantity"></div>
+          <i class="fa-sharp fa-solid fa-cart-shopping js-cart-click"></i>
+          <i id="bar" class="fas fa-outdent" onclick="show()"></i>
+        </div>
+    </section>
+
+    <section id="pageheader" class="blogheader">
+      <h2>#readmore</h2>
+      <p>
+        Celebrate Every Occasion with Beautiful Surprises!
+Handpicked gifts crafted with love for your special ones.
+      </p>
+    </section>
+
+    <section id="blog">
+      <div class="blogbox">
+        <div class="blogimg">
+          <img src="imgs/Breathing teddy - Rs 555.jpg" alt="" />
+        </div>
+
+        <div class="blogdets">
+          <h4>
+            Cuddle Up with Our Adorable Teddy Bear
+          </h4>
+          <p>
+            Bring home warmth, love, and comfort with this irresistibly soft teddy bear. Designed to be more than just a toy, it’s a perfect companion for kids and a heartfelt gift for your loved ones. With its cute smile and cozy feel, this teddy bear is sure to brighten anyone’s day.
+
+Whether you're celebrating a birthday, anniversary, or just want to surprise someone special, this cuddly friend makes every moment more memorable. Made with high-quality, skin-friendly material, it’s safe, durable, and perfect for endless hugs.
+
+Let this lovable teddy bear express your emotions when words are enough — because sometimes, a hug says it all.
+          </p>
+        </div>
+        <h1>13/01</h1>
+      </div>
+      <div class="blogbox">
+        <div class="blogimg">
+          <img src="imgs/printing/Banners Printing - sq 9 rupees  (T&C apply).jpg" alt="" />
+        </div>
+
+        <div class="blogdets">
+          <h4>Create Memories with Customized Printed Gifts</h4>
+          <p>
+           
+Turn your special moments into lasting memories with our beautifully crafted printed gifts. From personalized photo frames and mugs to custom t-shirts and cushions, every item is designed to reflect your unique style and emotions.
+
+Using high-quality printing techniques, we ensure vibrant colors, sharp details, and long-lasting impressions on every product. Whether it’s a birthday, anniversary, or a surprise for your loved ones, our customized gifts add a personal touch that makes every occasion unforgettable.
+
+Bring your ideas to life — print your memories, express your feelings, and gift something truly one-of-a-kind.
+          </p>
+        </div>
+        <h1>15/02</h1>
+      </div>
+      <div class="blogbox">
+        <div class="blogimg">
+          <img src="imgs/printing/Business Cards         designing & printing - Rs 450.jpg" alt="" />
+        </div>
+
+        <div class="blogdets">
+          <h4>
+            Experience the Perfect Blend of Style and Professionalism
+          </h4>
+          <p>
+            Step into a world where creativity meets precision and every detail is designed to impress.
+             Our approach focuses on delivering high-quality solutions that reflect both innovation and professionalism. 
+             Whether you're looking to elevate your brand identity or create something truly unique, we ensure every element is crafted with care. 
+             This journey is all about transforming ideas into impactful results that leave a lasting impression. 
+             Discover how thoughtful design and expert execution can bring your vision to life and set you apart from the rest.
+          </p>
+        </div>
+        <h1>11/03</h1>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img src="imgs/logoimage.png" alt="" class="footlogo" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address : </strong> No-43 avadi road karayanchavadi poonamallee chennai56
+        </p>
+        <p><strong>Phone : </strong>+91 9952915303</p>
+        <p><strong>Hours : </strong>9:00 am - 10:00 pm</p>
+
+       
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">SIgn In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play Store</p>
+        <img src="imgs/gp.png" alt="" class="footlogo2" />
+        <p>Secured payment Gateways</p>
+        <img src="imgs/ppay.png" alt="" class="footlogo3" />
+      </div>
+
+      
+    </footer>
+
+    <script src="scripts/cart.js"></script>
+    <script src="scripts/products.js"></script>
+    <script src="home.js"></script>
+  </body>
+</html>
